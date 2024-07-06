@@ -15,7 +15,7 @@
 7. **Application Load Balancer (ALB)**: Distributes traffic across the web servers.
 8. **S3 Bucket**: A simple S3 bucket.
 
-![Architecture](/Users/shivakumarbiru/Desktop/Github/Terraform/terraformscripts/architecture.png)
+![Architecture](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/architecture.png)
 
 
 
