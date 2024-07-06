@@ -66,7 +66,7 @@ The following AWS resources are created:
   - `aws_instance.webserver1`
   - `aws_instance.webserver2`
 
-![instance](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/instance.png)
+![instance](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/instances.png)
 ![ec1](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/ec1.png)
 ![ec2](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/ec2.png)
 
