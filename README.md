@@ -66,7 +66,7 @@ The following AWS resources are created:
   - `aws_instance.webserver1`
   - `aws_instance.webserver2`
 
-![insance](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/instnace.png)
+![instance](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/instance.png)
 ![ec1](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/ec1.png)
 ![ec2](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/ec2.png)
 
@@ -80,7 +80,7 @@ The following AWS resources are created:
 
 ![lb](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/lb.png)
 ![tg](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/TG.png)
-![lsitener](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/listener.png)
+![listener](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/listener.png)
 
 
 
@@ -90,9 +90,10 @@ The following AWS resources are created:
 The Application Load Balancer (ALB) is set up to distribute incoming HTTP traffic across two EC2 instances (`webserver1` and `webserver2`). The ALB ensures high availability and reliability by spreading the traffic, which helps in managing the load efficiently and providing a seamless user experience.
 
 
-![https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns1.png]
-![https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns2.png]
+!(dns1)[https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns1.png]
 
-## conclusion
+!(dns2)[https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns2.png]
+
+## Conclusion
 
 This Terraform configuration provides a robust and scalable infrastructure on AWS, featuring a VPC with public subnets, an internet gateway, security groups, and two EC2 instances behind an Application Load Balancer. It serves as a foundational setup for hosting web applications or other services requiring high availability and internet access. By using this configuration, you can quickly deploy a reliable environment, ensuring your web servers are securely accessible through the load balancer. Additionally, the configuration is easy to extend and customize according to your project's specific needs.
