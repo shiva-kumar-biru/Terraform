@@ -43,7 +43,7 @@ The following AWS resources are created:
 - **Internet Gateway**:
   - `aws_internet_gateway.igw`
 
-!IG](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/IG.png)
+![IG](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/IG.png)
 
 
 - **Route Table**:
