@@ -32,44 +32,44 @@ The following AWS resources are created:
 - **VPC**:
   - `aws_vpc.myvpc`
   
-  [vpc]()
+  [vpc](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/vpc.png)
 
 - **Subnets**:
   - `aws_subnet.sub1`
   - `aws_subnet.sub2`
 
-[subnet]()
+[subnet](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/subnet.png)
 
 - **Internet Gateway**:
   - `aws_internet_gateway.igw`
 
-[IG]()
+[IG](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/IG.png)
 
 
 - **Route Table**:
   - `aws_route_table.RT`
   - `aws_route_table_association.rta1`
   - `aws_route_table_association.rta2`
+ 
+[routetable](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/routetable.png)
 
 [routetable]()
 
 - **Security Group**:
   - `aws_security_group.webSg`
 
-[sg]
-
 - **S3 Bucket**:
   - `aws_s3_bucket.example`
 
-[bucket]()
+[bucket](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/bucket.png)
 
 - **EC2 Instances**:
   - `aws_instance.webserver1`
   - `aws_instance.webserver2`
 
-[insance]
-[ec1]
-[ec2]
+[insance](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/instnace.png)
+[ec1](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/ec1.png)
+[ec2](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/ec2.png)
 
 
 - **Application Load Balancer**:
@@ -79,9 +79,9 @@ The following AWS resources are created:
   - `aws_lb_target_group_attachment.attach2`
   - `aws_lb_listener.listener`
 
-[lb]
-[tg]
-[lsitener]
+[lb](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/lb.png)
+[tg](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/TG.png)
+[lsitener](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/listener.png)
 
 
 
@@ -91,8 +91,8 @@ The following AWS resources are created:
 The Application Load Balancer (ALB) is set up to distribute incoming HTTP traffic across two EC2 instances (`webserver1` and `webserver2`). The ALB ensures high availability and reliability by spreading the traffic, which helps in managing the load efficiently and providing a seamless user experience.
 
 
-[dns1]
-[dns2]
+[https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns1.png]
+[https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns2.png]
 
 ## conclusion
 
