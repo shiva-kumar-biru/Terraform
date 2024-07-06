@@ -90,9 +90,9 @@ The following AWS resources are created:
 The Application Load Balancer (ALB) is set up to distribute incoming HTTP traffic across two EC2 instances (`webserver1` and `webserver2`). The ALB ensures high availability and reliability by spreading the traffic, which helps in managing the load efficiently and providing a seamless user experience.
 
 
-!(dns1)[https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns1.png]
+![dns1](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns1.png)
 
-!(dns2)[https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns2.png]
+![dns2](https://github.com/shiva-kumar-biru/Terraform/blob/main/terraformscripts/docs/dns2.png)
 
 ## Conclusion
 
